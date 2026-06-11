@@ -1,0 +1,51 @@
+{
+  "feature_columns": [
+    "cancer_type",
+    "drug_type",
+    "phase",
+    "sponsor_type",
+    "enrollment_size",
+    "trial_duration_months"
+  ],
+  "categorical_cols": [
+    "cancer_type",
+    "drug_type",
+    "phase",
+    "sponsor_type"
+  ],
+  "numerical_cols": [
+    "enrollment_size",
+    "trial_duration_months"
+  ],
+  "cancer_types": [
+    "lung",
+    "breast",
+    "colorectal",
+    "prostate",
+    "leukemia",
+    "melanoma",
+    "pancreatic",
+    "ovarian",
+    "bladder",
+    "renal"
+  ],
+  "drug_types": [
+    "chemotherapy",
+    "immunotherapy",
+    "targeted_therapy",
+    "hormone_therapy",
+    "radiation",
+    "combination"
+  ],
+  "phases": [
+    "I",
+    "II",
+    "III",
+    "IV"
+  ],
+  "sponsor_types": [
+    "industry",
+    "academic",
+    "government"
+  ]
+}
